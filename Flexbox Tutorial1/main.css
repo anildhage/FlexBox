@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap') {}
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0.1em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', "sans-serif";
+}
+
+.navRow {
+    display: flex;
+    font-size: 1.5em;
+}
+
+#navLogo>icon {
+    font-size: 2em;
+}
+
+.navRow>ul>#navLogo {
+    flex: 4;
+    font-weight: bold;
+}
+
+.navRow>ul>li {
+    flex: 1;
+    padding: 1em;
+}
+
+.navRow ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.featuredItemRow {
+    display: flex;
+    flex: 1;
+}
+
+.centerContent {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroRow {
+    display: flex;
+    font-size: 1.5em;
+    color: white;
+    flex-direction: column;
+    background-color: #2c3e50;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.heroRow>.centerContent>h1 {
+    text-transform: uppercase;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.emailRow {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: #2ecc71;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.emailForm {
+    display: flex;
+    width: 130%;
+}
+
+.emailRow>.centerContent>h1 {
+    padding: 1em;
+}
+
+.emailForm>input[ type="text"] {
+    flex: 8;
+    border: none;
+    padding: 1.2em;
+    text-align: center;
+}
+
+.emailForm>button {
+    flex: 1;
+    border: none;
+    background-color: #f39c12;
+    color: white;
+    font-size: 1rem;
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.featuresRow {
+    justify-content: center;
+    display: flex;
+}
+
+.featuredItemRow {
+    display: flex;
+}
+
+.featuredItemBoxes {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0.5em;
+}
+
+.featuredItemBoxes>img {
+    width: 80%;
+    height: auto;
+}
+
+.PremiumRow {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: #2c3e50;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.PremiumRow>.centerContent>h1 {
+    padding: 1em;
+}
+
+.btn {
+    padding: 1rem;
+    border: solid 1px #000;
+    background-color: #2ecc71;
+    color: white;
+    width: 12em;
+    font-size: 1rem;
+    font-weight: 1.2em;
+    text-transform: uppercase;
+}
+
+.btnPro {
+    background-color: #f39c12;
+}
+
+.socialRow {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.socialRow>.centerContent>ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.socialRow>.centerContent>ul>li {
+    background-color: #2c3e50;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2em;
+    fill: #fff;
+    color: #fff;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+
+/* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
